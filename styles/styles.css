@@ -1315,6 +1315,7 @@ body {
 .thermometer-icon {
   background-image: url("/images/main/peculiarities/thermometer-icon.svg");
   background-repeat: no-repeat;
+}
 
 /*Доставка*/
 .delivery {
