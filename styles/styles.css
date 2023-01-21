@@ -1404,6 +1404,8 @@ body {
   grid-template-columns: 332px 152px;
   column-gap: 18px;
   align-items: start;
+  min-height: 212px;
+  box-sizing: border-box;
 }
 
 .subscription-offer {
@@ -1415,10 +1417,12 @@ body {
 .subscription-input-email {
   padding: 12px 16px;
   grid-column: 1 / 2;
+  align-self: end;
 }
 
 .subscription-button {
   grid-column: 2 / 3;
+  align-self: end;
   }
 
 /*Доставка*/
